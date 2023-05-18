@@ -1,0 +1,36 @@
+@media screen and (min-width: 300px) {
+    .input-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin-top: 20px;
+    }
+    .input-box_ind {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        justify-content: center;
+        align-items: center;
+    }
+    label {
+        color: #DB162F;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    input {
+        padding: 5px;
+        border: 1px solid #D0CCD0;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 700px) {
+    .input-box {
+        flex-direction: row;
+        gap: 90px;
+    }
+}
+
+
